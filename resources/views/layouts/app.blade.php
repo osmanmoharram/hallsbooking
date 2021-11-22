@@ -5,9 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>@yield('page-title', 'Panel')</title>
 
+    <!-- Styles -->
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+
+    <script defer src='https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js'></script>
 </head>
 
 <body class="bg-coolgray-200 font-sans antialiased min-h-screen overflow-hidden grid grid-cols-12">
@@ -24,5 +28,6 @@
 
         {{ $slot }}
     </div>
+</body>
 
 </html>

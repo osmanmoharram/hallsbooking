@@ -1,6 +1,6 @@
 <div class="flex items-center justify-between h-20">
     <!-- Page Heading -->
-    <h1 class="text-2xl text-coolgray-700 uppercase tracking-wide">
+    <h1 class="text-4xl font-bold text-coolgray-700 uppercase tracking-wide">
         @yield('page-heading')
     </h1>
 
