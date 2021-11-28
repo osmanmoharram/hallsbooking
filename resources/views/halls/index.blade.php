@@ -4,17 +4,19 @@
     @endsection
 
     @section('page-heading')
-        {{ __('halls.index.heading') }}
+        <span class="text-4xl font-karla leading-10 tracking-tight text-coolgray-800">
+            {{ __('halls.index.heading') }}
+        </span>
     @endsection
 
     <div x-data="{ isOpen: false }" class="mt-5">
-        @include('includes.modals.add-new-hall')
+        @include('includes.modals.new-hall')
 
         <!-- Modal trigger, Sort And Filter -->
         <div class="flex items-center justify-between">
 
             <!-- Modal Trigger -->
-            <x-button type="button" @click="isOpen = ! isOpen">Add New Hall</x-button>
+            <x-button type="button" @click="isOpen = ! isOpen;">Add New Hall</x-button>
 
             <div class="flex items-center pe-3 space-s-6">
 
@@ -47,7 +49,7 @@
         </div>
     
         <!-- Table -->
-        <div class="flex flex-col mt-2">
+        <div class="flex flex-col mt-5 font-montserrat">
             <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
                 <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
                     <div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">

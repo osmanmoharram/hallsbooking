@@ -12,6 +12,9 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+                cabin: ['Cabin', 'sans-serif'],
+                karla: ['Karla', 'sans-serif'],
+                montserrat: ['Montserrat', 'sans-serif']
             },
 
             colors: {

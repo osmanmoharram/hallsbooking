@@ -1,8 +1,6 @@
 <div class="flex items-center justify-between h-20">
     <!-- Page Heading -->
-    <h1 class="text-4xl font-bold text-coolgray-700 uppercase tracking-wide">
-        @yield('page-heading')
-    </h1>
+    @yield('page-heading')
 
     <div class="flex items-center space-s-12">
         <div class="flex items-center space-s-3 pb-1">
@@ -29,7 +27,7 @@
 				</span>
             </a>
 
-            <a href="#" class="block w-10 h-10 border-2 border-coolgray-50 ring-1 ring-coolgray-700 rounded-full overflow-hidden">
+            <a href="#" class="block w-10 h-10 border-2 border-coolgray-50 ring-1 ring-coolgray-700 focus:outline-none hover:shadow-lg rounded-full overflow-hidden">
 				<img src="https://images.unsplash.com/photo-1553998285-d99637ace719?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bWFsZSUyMG1vZGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="User">
             </a>
         </div>
