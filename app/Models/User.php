@@ -42,8 +42,8 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    public function isAdmin()
-    {
-        return auth()->id() === 1;
-    }
+    // public function isAdmin()
+    // {
+    //     return auth()->id() === 1;
+    // }
 }

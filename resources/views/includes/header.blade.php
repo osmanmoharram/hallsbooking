@@ -3,10 +3,9 @@
     @yield('page-heading')
 
     <div class="flex items-center space-s-12">
-        <div class="flex items-center space-s-3 pb-1">
-            <a href="{{ '/en' . substr(request()->path(), 2) }}" class="block font-semibold text-sm text-gray-700 text-opacity-50 hover:text-opacity-70 hover:underline tranisition duration-150 ease-in-out">English</a>
-            <div class="h-4 border border-coolgray-700 border-opacity-30"></div>
-            <a href="{{ '/ar' . substr(request()->path(), 2) }}" class="block font-semibold text-sm text-gray-700 text-opacity-50 hover:text-opacity-70 hover:underline tranisition duration-150 ease-in-out">عربي</a>
+        <div class="flex items-center divide-s-2 divide-gray-400 pb-1">
+            <a href="{{ '/en' . substr(request()->path(), 2) }}" class="pe-3 block font-semibold text-sm ms-3 text-gray-700 text-opacity-50 hover:text-opacity-70 hover:underline tranisition duration-150 ease-in-out">English</a>
+            <a href="{{ '/ar' . substr(request()->path(), 2) }}" class="ps-3 block font-tajawal font-semibold text-sm  text-gray-700 text-opacity-50 hover:text-opacity-70 hover:underline tranisition duration-150 ease-in-out">عربي</a>
         </div>
 
         <!-- Search, Notifications And User Profile -->

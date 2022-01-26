@@ -29,7 +29,7 @@
 			x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
 			class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-3xl sm:w-full">
 
-            <div class="bg-white px-4 pt-5 pb-4 sm:p-14 sm:pt-12">
+            <div class="bg-white sm:p-8">
                 <form method="POST" action="{{ route('halls.store', app()->getLocale()) }}"
 					class="space-y-6"
 					enctype="multipart/form-data">

@@ -14,7 +14,8 @@ module.exports = {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
                 cabin: ['Cabin', 'sans-serif'],
                 karla: ['Karla', 'sans-serif'],
-                montserrat: ['Montserrat', 'sans-serif']
+                montserrat: ['Montserrat', 'sans-serif'],
+                tajawal: ['Tajawal', 'sans-serif']
             },
 
             colors: {

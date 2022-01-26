@@ -26,7 +26,7 @@ class HallController extends Controller
      */
     public function store(HallRequest $request)
     {
-        //
+        dd($request->all());
     }
 
     /**
@@ -35,7 +35,7 @@ class HallController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function shooppt($id)
+    public function show($id)
     {
         //
     }

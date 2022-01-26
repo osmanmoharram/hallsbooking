@@ -13,7 +13,7 @@ class HallRequest extends FormRequest
      */
     public function authorize()
     {
-        return $this->user()->isAdmin();
+        return true;
     }
 
     /**
@@ -24,7 +24,7 @@ class HallRequest extends FormRequest
     public function rules()
     {
         return [
-            "name" => ['required', 'min:3', 'max:50', 'unique:halls,name'],
+            "name" => ['required', 'min:3', 'max:20', 'unique:halls,name'],
             "location" => ['required', 'min:3', 'max:100', 'unique:halls,location'],
             "width" => ['required', 'integer'],
             "length" => ['required', 'integer'],
